@@ -4,35 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "bdd74d25f8f209d4",
+        "id": "15f90ae98d9fe277",
         "type": "split",
         "children": [
           {
             "id": "2316033ab1059385",
             "type": "tabs",
+            "dimension": 22.011385199240987,
             "children": [
               {
                 "id": "b4b98f8fa496a346",
                 "type": "leaf",
                 "state": {
-                  "type": "markdown",
-                  "state": {
-                    "file": "2025-08-10.md",
-                    "mode": "source",
-                    "source": false
-                  },
+                  "type": "empty",
+                  "state": {},
                   "icon": "lucide-file",
-                  "title": "2025-08-10"
+                  "title": "New tab"
                 }
               }
             ]
           },
           {
-            "id": "7af35c481416f401",
+            "id": "4f833166072aefd3",
             "type": "tabs",
+            "dimension": 77.98861480075901,
             "children": [
               {
-                "id": "d3d2332ff7e91e67",
+                "id": "fa6a03489fcf0cd6",
                 "type": "leaf",
                 "pinned": true,
                 "state": {
@@ -233,8 +231,9 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d3d2332ff7e91e67",
+  "active": "fa6a03489fcf0cd6",
   "lastOpenFiles": [
+    "Personal/2025-08-10.md",
     "2025-08-10.md",
     "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
     "Personal",
@@ -279,7 +278,6 @@
     "Networking/Basic IOS Config.md",
     "Networking/basic-config.md",
     "Networking/Enable SSH on IOS.md",
-    "Networking/enable-ssh.md",
-    "Networking/Cisco IOS Commands Cheat Sheet.md"
+    "Networking/enable-ssh.md"
   ]
 }
