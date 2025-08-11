@@ -1,0 +1,232 @@
+{
+  "main": {
+    "id": "7d4e7d092505e9ec",
+    "type": "split",
+    "children": [
+      {
+        "id": "35337c76d694fcc5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc13cbdda6bab285",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG"
+              },
+              "icon": "lucide-image",
+              "title": "Virtual Network Features"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e72ec380921f61fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "c643b790fc8903c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "daa86fb792f25c21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "843798e003b360fc",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "1f2f941bdc78b771",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 396.5
+  },
+  "right": {
+    "id": "50a7aa63f5d96d68",
+    "type": "split",
+    "children": [
+      {
+        "id": "b1e8663acb47fb1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87cbf11502263197",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Virtual Network Features"
+            }
+          },
+          {
+            "id": "d25b34b006a36227",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "bbbbae4b7a66d4ac",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d82a92fec416d1a3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Virtual Network Features"
+            }
+          }
+        ]
+      },
+      {
+        "id": "99092a8d93300df4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46ba0dab3c3a4c07",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "daa86fb792f25c21",
+  "lastOpenFiles": [
+    "README.md",
+    "4913",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Routing Scenarios - User-defined BGP.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Route Types.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Public IP SKUs.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Network Security Groups.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Describing Routing.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Deploying Network Resources.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Azure Firewall Key Takeaways.PNG",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Azure Firewall Features.PNG",
+    "Git and GitHub/GitHub Basics.md",
+    "Git and GitHub/Git Basics.md",
+    "Programming/Computer Science/Introduction to Algorithms.md",
+    "Programming/Computer Science/Binary and Hexadecimal Numbers.md",
+    "Programming/Computer Science/Computer Science Basics.md",
+    "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
+    "Windows/Recycle Bin.md",
+    "Home Lab/Windows Server Lab I/img/screenshot9_dhcp4.PNG",
+    "Home Lab/Windows Server Lab I/img/screenshot8_dhcp3.PNG",
+    "Home Lab/Windows Server Lab 1/data/Users.csv",
+    "Home Lab/Windows Server Lab I/img",
+    "Home Lab/Windows Server Lab 1/data",
+    "Home Lab/Windows Server Lab I",
+    "Home Lab/cooklab-master/img",
+    "Home Lab/cooklab-master/data/Users.csv",
+    "Home Lab/cooklab-master/data",
+    "Home Lab/cooklab-master/README.md",
+    "Home Lab/cooklab-master/cooklab-master/scripts/deploy-dhcp-server2.ps1",
+    "Home Lab/cooklab-master/cooklab-master/scripts/deploy-dhcp-server1.ps1",
+    "Home Lab/cooklab-master/cooklab-master/README.md",
+    "Networking/Basic IOS Config.md",
+    "Networking/basic-config.md",
+    "Networking/Enable SSH on IOS.md",
+    "Networking/enable-ssh.md",
+    "Networking/Cisco IOS Commands Cheat Sheet.md",
+    "Networking/command-cheatsheet.md",
+    "Linux/files/managing-files.md",
+    "Linux/RHEL-package-management/yum.md",
+    "Linux/RHEL-package-management/rpm.md",
+    "Linux/RHEL-package-management/README.md",
+    "Programming/Design Patterns/Object-Oriented Design and SOLID.md",
+    "Programming/Design Patterns/Common Design Patterns.md",
+    "Programming/Design Patterns/YAGNIS, KISS, and DRY.md",
+    "Programming/Useful Articles.md",
+    "Virtualization, Cloud and Containers/Docker.md",
+    "Virtualization, Cloud and Containers/Proxmox/Creating a temp directory for snapshots.md"
+  ]
+}

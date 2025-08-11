@@ -1,0 +1,3 @@
+- Can there be more than one authoritative DNS server for a domain?
+- In what situations would you host a secondary zone?
+- How do subdomains work in Windows Server?

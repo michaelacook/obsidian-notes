@@ -1,0 +1,25 @@
+- Disable unused startup applications, background processes you don't need running
+- Turn off fast start-up
+- Do a true restart
+- Check Event Viewer
+	- Windows Logs>System
+	- Reliability History
+	- points you in the right direction toward a solution
+- Clear out unneeded files on an SSD
+	- Use programs like [WizTree](https://diskanalyzer.com/)disk analyzer to see where files could be cleaned up
+- Clean the inside of the device, reduces CPU throttling
+- Reset Windows
+	- Start>Reset
+		- will probably erase all program configurations, even if you opt to keep personal files
+- Reformat
+	- When you have a virus, rootkit
+- Disable visual effects
+	- `sysdm.cpl`>Advanced>Performance>Settings>Visual effects
+- Check the power plan
+	- Balanced by default
+	- Set to High Performance
+		- will use more power
+	- make sure computer isn't in a battery saving mode
+- Performance myths
+	- "Registry cleaners" - don't need them, don't use them
+	- Defragmenting - Windows does this automatically, SSDs could be damaged by defragmentation

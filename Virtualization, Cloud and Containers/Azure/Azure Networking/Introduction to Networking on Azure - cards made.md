@@ -1,0 +1,2 @@
+- Need to understand [[Private IP Blocks]]
+- Also good to understand [[Magic Number Subnetting]]

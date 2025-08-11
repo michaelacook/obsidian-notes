@@ -1,0 +1,19 @@
+- What is Network Watcher?
+	- service of tools for monitoring and diagnostics of vnets
+	- see topology, connectivity
+	- also see hybrid networks
+	- troubleshoot connectivity issues in cloud and hybrid networks
+	- enable per region in a subscription
+- use Topology to see network topology
+- use Connection monitor to find out what's happening with end-to-end connectivity in vnets and hybrid networks
+	- Create connection monitor - uses Log Analytics Workspace
+	- Add a vnet, VM
+	- Add a test configuration
+- Network Performance Monitor 
+	- Same as connection monitor
+	- Verify IP flow
+	- NSG diagnostic
+	- Determine next hop
+	- Effective security rules for a VM
+	- Packet capture
+	- etc
