@@ -13,13 +13,50 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG"
+                "file": "Images/Pasted image 20240802161736.png"
               },
               "icon": "lucide-image",
-              "title": "Virtual Network Features"
+              "title": "Pasted image 20240802161736"
+            }
+          },
+          {
+            "id": "ef5e88ecfbe01a2c",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20240802161822.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240802161822"
+            }
+          },
+          {
+            "id": "c354f65f1446cff2",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20250204210705.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20250204210705"
+            }
+          },
+          {
+            "id": "17749c10da4eb480",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Images/Pasted image 20240802161736.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted image 20240802161736"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -76,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 605.5
   },
   "right": {
     "id": "50a7aa63f5d96d68",
@@ -92,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG",
+                "file": "Images/Pasted image 20240802161736.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +139,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Virtual Network Features"
+              "title": "Backlinks for Pasted image 20240802161736"
             }
           },
           {
@@ -139,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG",
+                "file": "Images/Pasted image 20240802161736.png",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Virtual Network Features"
+              "title": "Outline of Pasted image 20240802161736"
             }
           }
         ]
@@ -180,18 +217,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "daa86fb792f25c21",
+  "active": "17749c10da4eb480",
   "lastOpenFiles": [
+    "Images/Pasted image 20240802161732.png",
+    "Images/Pasted image 20240802161736.png",
+    "Images/Pasted image 20240802161822.png",
+    "Images/Pasted image 20250204210705.png",
+    "Images/Pasted image 20250317152850.png",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Active Directory Forests.md",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Active Directory Sites and Replication.md",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Domains and Domain Controllers.md",
+    "Windows/Windows 11 for IT Support_Intermediate Troubleshooting/1. Introduction.md",
+    "Images",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Stupid Questions about DNS.md",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Reviewing Windows Server Fundamentals.md",
+    "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Reviewing Windows Server DNS Fundamentals.md",
+    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Virtual Network Features.PNG",
     "README.md",
     "4913",
     "Virtualization, Cloud and Containers/Azure/Virtual Networks/Routing Scenarios - User-defined BGP.PNG",
     "Virtualization, Cloud and Containers/Azure/Virtual Networks/Route Types.PNG",
     "Virtualization, Cloud and Containers/Azure/Virtual Networks/Public IP SKUs.PNG",
     "Virtualization, Cloud and Containers/Azure/Virtual Networks/Network Security Groups.PNG",
-    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Describing Routing.PNG",
-    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Deploying Network Resources.PNG",
-    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Azure Firewall Key Takeaways.PNG",
-    "Virtualization, Cloud and Containers/Azure/Virtual Networks/Azure Firewall Features.PNG",
     "Git and GitHub/GitHub Basics.md",
     "Git and GitHub/Git Basics.md",
     "Programming/Computer Science/Introduction to Algorithms.md",
@@ -199,8 +246,6 @@
     "Programming/Computer Science/Computer Science Basics.md",
     "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
     "Windows/Recycle Bin.md",
-    "Home Lab/Windows Server Lab I/img/screenshot9_dhcp4.PNG",
-    "Home Lab/Windows Server Lab I/img/screenshot8_dhcp3.PNG",
     "Home Lab/Windows Server Lab 1/data/Users.csv",
     "Home Lab/Windows Server Lab I/img",
     "Home Lab/Windows Server Lab 1/data",
@@ -210,7 +255,6 @@
     "Home Lab/cooklab-master/data",
     "Home Lab/cooklab-master/README.md",
     "Home Lab/cooklab-master/cooklab-master/scripts/deploy-dhcp-server2.ps1",
-    "Home Lab/cooklab-master/cooklab-master/scripts/deploy-dhcp-server1.ps1",
     "Home Lab/cooklab-master/cooklab-master/README.md",
     "Networking/Basic IOS Config.md",
     "Networking/basic-config.md",
@@ -219,14 +263,6 @@
     "Networking/Cisco IOS Commands Cheat Sheet.md",
     "Networking/command-cheatsheet.md",
     "Linux/files/managing-files.md",
-    "Linux/RHEL-package-management/yum.md",
-    "Linux/RHEL-package-management/rpm.md",
-    "Linux/RHEL-package-management/README.md",
-    "Programming/Design Patterns/Object-Oriented Design and SOLID.md",
-    "Programming/Design Patterns/Common Design Patterns.md",
-    "Programming/Design Patterns/YAGNIS, KISS, and DRY.md",
-    "Programming/Useful Articles.md",
-    "Virtualization, Cloud and Containers/Docker.md",
-    "Virtualization, Cloud and Containers/Proxmox/Creating a temp directory for snapshots.md"
+    "Linux/RHEL-package-management/yum.md"
   ]
 }
