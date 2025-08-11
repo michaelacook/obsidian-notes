@@ -47,12 +47,14 @@
             "id": "17749c10da4eb480",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "Images/Pasted image 20240802161736.png"
+                "file": "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
+                "mode": "preview",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240802161736"
+              "icon": "lucide-file",
+              "title": "Windows Server Lab - The Basics"
             }
           }
         ],
@@ -113,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 605.5
+    "width": 303.5
   },
   "right": {
     "id": "50a7aa63f5d96d68",
@@ -129,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Images/Pasted image 20240802161736.png",
+                "file": "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Pasted image 20240802161736"
+              "title": "Backlinks for Windows Server Lab - The Basics"
             }
           },
           {
@@ -217,18 +219,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "17749c10da4eb480",
+  "active": "daa86fb792f25c21",
   "lastOpenFiles": [
-    "Images/Pasted image 20240802161732.png",
-    "Images/Pasted image 20240802161736.png",
-    "Images/Pasted image 20240802161822.png",
-    "Images/Pasted image 20250204210705.png",
-    "Images/Pasted image 20250317152850.png",
+    "pasted images/Pasted image 20240802161736.png",
+    "pasted images/Pasted image 20240802161732.png",
+    "pasted images/Pasted image 20240802161822.png",
+    "pasted images/Pasted image 20250204210705.png",
+    "pasted images/Pasted image 20250317152850.png",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Active Directory Forests.md",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Active Directory Sites and Replication.md",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/2. Implementing Active Directory Domain Services/Domains and Domain Controllers.md",
     "Windows/Windows 11 for IT Support_Intermediate Troubleshooting/1. Introduction.md",
-    "Images",
+    "pasted images",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Stupid Questions about DNS.md",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Reviewing Windows Server Fundamentals.md",
     "Windows/AZ-800_Administering Windows Server Hybrid Core Infrastructure/1. Preparing for Active Directory Domain Services/Reviewing Windows Server DNS Fundamentals.md",
