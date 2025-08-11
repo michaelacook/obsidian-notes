@@ -4,61 +4,75 @@
     "type": "split",
     "children": [
       {
-        "id": "35337c76d694fcc5",
-        "type": "tabs",
+        "id": "bdd74d25f8f209d4",
+        "type": "split",
         "children": [
           {
-            "id": "cc13cbdda6bab285",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20240802161736.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240802161736"
-            }
+            "id": "2316033ab1059385",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "b4b98f8fa496a346",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "2025-08-10.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "2025-08-10"
+                }
+              }
+            ]
           },
           {
-            "id": "ef5e88ecfbe01a2c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20240802161822.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20240802161822"
-            }
-          },
-          {
-            "id": "c354f65f1446cff2",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Images/Pasted image 20250204210705.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20250204210705"
-            }
-          },
-          {
-            "id": "17749c10da4eb480",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Windows Server Lab - The Basics"
-            }
+            "id": "7af35c481416f401",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d3d2332ff7e91e67",
+                "type": "leaf",
+                "pinned": true,
+                "state": {
+                  "type": "terminal:terminal",
+                  "state": {
+                    "terminal:terminal": {
+                      "cwd": "/home/michael/Documents/obsidian-notes/",
+                      "focus": false,
+                      "profile": {
+                        "args": [],
+                        "executable": "/bin/sh",
+                        "name": "",
+                        "platforms": {
+                          "linux": true
+                        },
+                        "pythonExecutable": "python3",
+                        "restoreHistory": false,
+                        "successExitCodes": [
+                          "0",
+                          "SIGINT",
+                          "SIGTERM"
+                        ],
+                        "terminalOptions": {
+                          "documentOverride": null
+                        },
+                        "type": "integrated",
+                        "useWin32Conhost": true
+                      },
+                      "serial": null
+                    }
+                  },
+                  "pinned": true,
+                  "icon": "terminal",
+                  "title": "Terminal: sh"
+                }
+              }
+            ]
           }
         ],
-        "currentTab": 3
+        "direction": "horizontal"
       }
     ],
     "direction": "vertical"
@@ -131,7 +145,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Windows Server Lab - The Basics"
+              "title": "Backlinks"
             }
           },
           {
@@ -216,11 +229,17 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "daa86fb792f25c21",
+  "active": "d3d2332ff7e91e67",
   "lastOpenFiles": [
+    "2025-08-10.md",
+    "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
+    "Personal",
+    "Programming/Design Patterns/YAGNIS, KISS, and DRY.md",
+    "Linux/Linux+/ssh.md",
     "LICENSE.md",
     "README.md~",
     "pasted images/Pasted image 20240802161736.png",
@@ -248,7 +267,6 @@
     "Programming/Computer Science/Introduction to Algorithms.md",
     "Programming/Computer Science/Binary and Hexadecimal Numbers.md",
     "Programming/Computer Science/Computer Science Basics.md",
-    "Home Lab/Windows Server Lab I/Windows Server Lab - The Basics.md",
     "Windows/Recycle Bin.md",
     "Home Lab/Windows Server Lab 1/data/Users.csv",
     "Home Lab/Windows Server Lab I/img",
@@ -256,16 +274,12 @@
     "Home Lab/Windows Server Lab I",
     "Home Lab/cooklab-master/img",
     "Home Lab/cooklab-master/data/Users.csv",
-    "Home Lab/cooklab-master/data",
     "Home Lab/cooklab-master/README.md",
     "Home Lab/cooklab-master/cooklab-master/README.md",
     "Networking/Basic IOS Config.md",
     "Networking/basic-config.md",
     "Networking/Enable SSH on IOS.md",
     "Networking/enable-ssh.md",
-    "Networking/Cisco IOS Commands Cheat Sheet.md",
-    "Networking/command-cheatsheet.md",
-    "Linux/files/managing-files.md",
-    "Linux/RHEL-package-management/yum.md"
+    "Networking/Cisco IOS Commands Cheat Sheet.md"
   ]
 }
