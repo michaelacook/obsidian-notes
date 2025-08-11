@@ -221,6 +221,8 @@
   },
   "active": "daa86fb792f25c21",
   "lastOpenFiles": [
+    "LICENSE.md",
+    "README.md~",
     "pasted images/Pasted image 20240802161736.png",
     "pasted images/Pasted image 20240802161732.png",
     "pasted images/Pasted image 20240802161822.png",
@@ -256,7 +258,6 @@
     "Home Lab/cooklab-master/data/Users.csv",
     "Home Lab/cooklab-master/data",
     "Home Lab/cooklab-master/README.md",
-    "Home Lab/cooklab-master/cooklab-master/scripts/deploy-dhcp-server2.ps1",
     "Home Lab/cooklab-master/cooklab-master/README.md",
     "Networking/Basic IOS Config.md",
     "Networking/basic-config.md",
