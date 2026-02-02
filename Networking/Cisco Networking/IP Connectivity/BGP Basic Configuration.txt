@@ -1,0 +1,27 @@
+1. Enter BGP config mode
+
+router bgp [AS number]
+
+2. Configure neighbors
+
+-must manually specify each neighbor
+
+neighbor [ip address] remote-as [neighbor AS number]
+
+3. Advertise networks
+
+-no wildcard masks, full netmask
+-have to enter exact network and mask of network to advertise, unlike IGPs
+
+network [ip] [mask]
+
+-there must be a matching route in the route table to advertise it in BGP; this makes advertising summary routes tricky
+-to advertise a summary route that doesn't actually appear in the route table, create a static route using the Null0 interface as the exit interface
+-often called a discard route
+
+ip route [summary-ip] [mask] null0
+
+---------------------------
+1. neighbor AS incorrectly config'd
+2. summary network incorrectly advertised
+3. advertising routes into area 1 instead of area 0

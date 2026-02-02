@@ -1,0 +1,9 @@
+Multi-area OSPF
+
+Summarize routes for an area
+
+Area from which routes originate is specified first
+Then range and the subnet and mask (not wildcard)
+Do this on the ABR for an area
+
+area 0 range summarized-range subnet-mask

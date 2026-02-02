@@ -1,4 +1,3 @@
-### A Brief History of Windows
 
 #### Windows 1.0 (1985)
 - Released on **November 20, 1985**.

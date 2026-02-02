@@ -1,0 +1,13 @@
+- Physical and logical topology diagrams
+- Network device documentation
+- Network performance baseline documentation
+- Network baseline: baseline behaviour of the network under normal conditions
+	- used for monitoring to measure against
+	- a network baseline should answer the following questions:
+		- How does the network perform during a normal or average day? 
+		- Where are the most errors occurring? 
+		- What part of the network is most heavily used? 
+		- What part of the network is least used? 
+		- Which devices should be monitored and what alert thresholds should be set? 
+		- Can the network meet the identified policies?
+	- The initial network performance baseline sets the stage for measuring the effects of network changes and subsequent troubleshooting efforts. Therefore, it is important to plan for it carefully.

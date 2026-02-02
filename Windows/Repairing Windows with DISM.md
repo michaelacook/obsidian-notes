@@ -1,0 +1,22 @@
+## Using DISM to Repair Windows
+- Can be used when System File Checker is unable to repair corruption
+- Use in an elevated Command Prompt or PowerShell session
+- `DISM /Online /Cleanup-Image /CheckHealth`
+	- `/CheckHealth` quick check for errors
+	- All other switches stay the same with most usage cases
+- `DISM /Online /Cleanup-Image /ScanHealth`
+	- Detailed scan for errors, may take longer
+- `DISM /Online /Cleanup-Image /RestoreHealth`
+	- Similar to SFC but more powerful
+	- Restore files from a backup and/or Windows Update
+	- If this doesn't work, you may need to download a new Windows image. I.e., if the Windows refresh image or backup itself is corrupted
+		- [https://www.microsoft.com/software-download/windows11](https://www.microsoft.com/en-ca/software-download/windows11)
+		- Make sure you get the correct Windows version that matches the one you have
+			- You can only download the most recent version directly from Microsoft
+			- Use Windows Media Creation Tool
+			- Or download from 365 admin portal
+		- Mount the image, assign a drive letter
+			- `DISM /Online /Cleanup-Image /RestoreHealth /Source:wim:D:\Source\install.wim`
+			- This will repair Windows system files using a fresh Windows image
+			- Append `/LimitAccess` switch to command to prevent Windows Update from interfering
+

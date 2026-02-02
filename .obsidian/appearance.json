@@ -1,3 +1,5 @@
 {
-  "cssTheme": "Obsidian gruvbox"
+  "cssTheme": "Dark Moss",
+  "theme": "obsidian",
+  "showRibbon": false
 }

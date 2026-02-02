@@ -1,0 +1,5 @@
+To advertise a summary route in EIGRP, enter interface configuration mode on the interface connected to the neighbor you want to advertise a summary route to
+
+Router(config-if)#ip summary-address eigrp AS-number subnet subnet-mask
+
+E.g. R3(config-if)#ip summary-address eigrp 100 10.0.0.0 255.0.0.0

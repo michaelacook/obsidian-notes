@@ -1,0 +1,2 @@
+- Get the storage device's UUID with `ls -n /dev/disk/by-id/` in the host console
+- Pass through with `/sbin/qm set {vm-id} -virtio /dev/disk/by-id/{disk-uuid}`

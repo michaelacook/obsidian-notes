@@ -1,0 +1,72 @@
+- DNS very important for AD
+- need a DNS server to host the DNS zone for the Active Directory domain
+- hosts register in DNS so that all 
+- also need srv records to indicate domain controllers
+
+## DNS Basics
+Important to read:
+	- [How DNS Works](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/dd197446(v=ws.10))
+	- [Managing a DNS Server](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc816758(v=ws.10))
+	- [Managing a Forward Lookup Zone](https://learn.microsoft.com/en-us/previous-versions/windows/it-pro/windows-server-2008-r2-and-2008/cc816891(v=ws.10))
+- Each domain is a zone
+- The authoritative server for a zone is called a name server
+- DNS forwarders
+	- server forwarders - catch-all forwarded, used if no conditional forwarder
+	- conditional forwarders - forwarder for a specific domain
+- Root hints - addresses for the root name servers, used if the DNS server can't find a record in its cache and forwarders fail to result in a response
+- Forward lookup zone - hostnames to IP
+- Reverse lookup zone - IP to hostname
+- Three kinds of zones, each can be either forward and reverse lookup zones:
+	- Primary zone - writable copy of the zone
+	- Secondary zone - read-only copy replicated from a primary name server
+	- Stub zone - stores name server and Start of Authority (SOA) information for another zone
+		- SOA - stuff like name servers for the zone
+- Zone storage
+	- Standard zone - a zone can be stored in a .dns file on a name server
+	- Active Directory-integrated - stored in the AD database, requires a domain controller and cannot be a secondary zone because they are read/write
+	- Resource records
+	- A/AAAA - maps FQDN to IP
+	- PTR - IP to FQDN; reverse lookup zone
+	- SOA - stores administrative information about the zone - NS servers, TTL
+	- NS - stores the IP address of all servers that store the zone
+	- CNAME - also referred to as an alias; maps a FQDN to another FQDN
+	- MX - stores info about email servers for a domain
+	- SRV - stores IP and port info for servers that host services in the domain; used extensively by ADDS
+	- TXT - stores text-based info about a host or domain name; used for domain validation scenarios
+- Recursive DNS Servers
+	- A DNS server will be authoritative for it's own domain and recursive for all others, meaning it would forward the request
+	- different ways to handle recursive lookups:
+		- Conditional forwarder - forward requests for a specific zone to a static list of name servers
+		- Stub zone - forward requests for a specific zone to a dynamic list of name servers
+		- Server forwarder - forward all unknown requests to a static list of DNS servers
+		- Root hints - forward all unknown requests to a list of root name servers
+
+## Multi-site Environment
+- Stub zones: https://www.youtube.com/watch?v=YrZBw-vPV_w
+- Windows Server DNS: https://www.youtube.com/watch?v=0VD3IFRW2cs
+- More Windows Server DNS: https://www.youtube.com/watch?v=f7bmOXCpkrg
+- Understanding DNS Zones: https://www.youtube.com/watch?v=t4LSqIdEQbI
+- DNS servers should be domain controllers
+- There should be a DNS server in each site location, otherwise you're making DNS queries over slow WAN links
+- Different DNS databases:
+  - Active Directory Integrated - Primary (preferred)
+  - Standard Primary
+  - Secondary
+  - Stub (ADI/Standard)
+- Best to make all DNS servesr ADI Primary, but you can only do this if the DNS server is also a domain controller
+- If you use a Standard Primary DNS server, you can only have one primary DNS server in your whole domain, everything else must be secondary or a stub, which means that only a single domain controller is writable (the primary)
+  - all changes have to go up to the primary, and then written back through replicable to the secondary/stub server
+- If you're using DNS servers running on UNIX, you would use Standard Primary and secondary/stub servers, but most companies don't do this
+- DNS stub servers are mainly used when you have another domain
+  - i.e., if clients in one domain need to query DNS for resources in another domain in the organization
+  - in this case you would need either a conditional forwarder that forwards queries for that domain to a name server for that domain
+  - problem with this is that the conditional forwarder is static and will be wrong if the IP of the server in the other domain changes
+  - other solution is a DNS stub zone
+    - the stub zone is created in the querying domain, and it replicates information for the primary name server from the other domain so that it's always available and up to date so that clients in domain A can resolve names in domain B
+
+## Integrating DNS with a domain controller
+- DNS is usually installed and integrated with AD automatically when AD is installed and configured, but it doesn't have to
+- This is specifically for integrating DNS with a DC after the fact
+- Install DNS role on the server
+- Create a new forward lookup zone, create a primary zone, store the zone in AD
+- Follow prompts, make sure server uses itself for DNS, reboot or restart netlogon service

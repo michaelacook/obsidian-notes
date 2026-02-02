@@ -1,0 +1,6 @@
+OSPFv3 for IPv6
+
+-OSPFv3 doesn't use the network command; advertise directly on interfaces with ipv6 ospf [process-id] area [area]
+-Router ID is still in the form of a 32 bit IPv4 number
+
+https://www.cisco.com/c/en/us/support/docs/ip/ip-version-6-ipv6/112100-ospfv3-config-guide.html

@@ -1,0 +1,78 @@
+## `C:\`
+- Folders in the root directory
+- **ProgramData**
+	- Contains Win32 app data that applies to all users on the PC system wide
+		- Configuration and other files necessary for apps to run
+		- Should never be deleted, can be a large folder
+- **System Volume Information**
+	- May not be visible
+	- Used by System Restore, contains backup copies of critical system files including registry and files that change on app installations
+- **Program Files**
+	- 64-bit Win32 programs for all users installed here
+- **Program Files\WindowsApps**
+	- 64-bit Windows Store apps installed here
+	- Inaccessible even to administrator users
+- **Program Files (x86)**
+	- 32-bit Win32 programs for all users installed here
+	- Some times 64-bit software does get installed here by default
+	- backward compatibility
+- **PerfLogs**
+	- Where Custom Data Collector Sets for Performance Monitor are stored
+## `C:\Windows`
+- Important files used by the operating system itself
+- `%SystemRoot%`
+- **AppPatch** - Contains application compatibility files
+- **Boot** - Necessary boot files for Windows
+- **CSC** - Contains files used for caching
+- **Cursors** - Contains cursor and icon files
+- **Debug** - Contains Windows error logs
+- **Fonts** - Contains installed fonts on the PC
+- **Globalization** - Contains language packs and dictionary files
+- **IME** - Contains language files for the OS
+- **ImmersiveControlPanel** - Contains files used by the Settings panel
+- **INF** - Contains driver installation files
+- **Logs** - Main log folder, includes logs for Event Viewer and Windows Update stored as .xml and Event Trace Log .etl files
+- **Media** - Contains audio and video files for Windows
+- **MiniDump** - Contains crash reports created by apps and BSoD with .dmp extension; binary file readable with BlueScreenView
+- **Prefetch** - A cache for loading commonly used files
+- **Resources** - Ease of Access themes, and other themes
+- **Security** - Security files and logs for MMC snap-ins
+- **SoftwareDistribution** - Windows Update files
+- **System** - Exists to support legacy apps
+- **System32** - The main repository of Windows files:
+	- **System32\Config** - Contains the main Registry files for Windows
+	- **System32\Drivers** - Contains installed driver files
+	- **System32\Driver\etc** - Contains configuration for the HOSTS file
+	- **System32\GroupPolicy** - Contains Group Policy template files
+	- **System32\icsxml** - Files used by USB Universal Plug and Play
+	- **System32\Microsoft** - Contains cryptography files
+	 - **System32\Tasks** - Contains scheduled tasks files
+	- **System32\WinSxS** - The Windows Side by Side folder contains multiple copies of, and different versions of Dynamic-link library (DLL) files that are required by installed software
+	- **System32\Web** - Windows wallpapers and lock screen images
+- **Temp** - Protected storage folder for temporary files used by the OS and installed software; can have contents deleted to save space or for troubleshooting purposes
+
+## `C:\Users`
+- Folder for each user on the system
+- **AppData\Local** (`%localappdata%`) - Contains data and settings for installed software and the user profile
+- **AppData\Local\CrashDumps** - Contains crash dump files pertinent to the specific user account; binary file readable with BlueScreenView
+- **AppData\LocalLow** - Contains data that cannot be moved away from the PC, and that has lower-level access on the PC (ex: privacy mode in web browsers)
+- **AppData\Roaming** (`%appdata%`) - Contains data and settings that can be moved with the account (ex: Domain join information)
+- Temporary AppData caches that can be deleted for troubleshooting purposes:
+	- **AppData\Local\Temp** (`%temp%`) - Main per-user temporary file storage folder
+	- **AppData\Local\Microsoft\Windows\INetCache** - Used for storing temporary Internet files
+	- **AppData\Local\Microsoft\Windows\Temporary Internet Files** - Another temporary Internet files folder
+- More detail in [[AppData]] notes
+------
+
+## Windows File Types
+
+- **Bootmgr** - Critical file required for the PC to boot
+- **Desktop.ini** - Configuration data for how the folder is viewed in File Explorer
+- **DLL** - Dynamically-link library files; contain code shared by applications that perform shared tasks on the PC (ex: managing windows on the desktop)
+- **EXE** - Win32 app executables
+- **Hiberfil.sys** - The Windows hibernation store file
+- **INF** - Device driver installation files
+- **INI** - Configuration and option files for installed software and Windows features
+- **Thumbs.db** - Contain thumbnail images of file contents for display in File Explorer
+- **Pagefile.sys** and **Swapfile.sys** - Used by the virtual memory feature in Windows
+- **SYS** - Contain system settings used by installed software and hardware drivers on the PC

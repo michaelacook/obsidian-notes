@@ -1,0 +1,23 @@
+{
+	"nodes":[
+		{"id":"c7e648061daacefe","x":-800,"y":-460,"width":300,"height":60,"type":"text","text":"Property tax account compromise"},
+		{"id":"2782843a06df5e84","x":-480,"y":-320,"width":266,"height":50,"type":"text","text":"Compromise user credentials"},
+		{"id":"b8d9069f91adac1e","x":-480,"y":110,"width":265,"height":50,"type":"text","text":"Acquire authenticated session"},
+		{"id":"0ad8b8554a26c264","x":-80,"y":-320,"width":250,"height":50,"color":"#808080","type":"text","text":"Social engineering"},
+		{"id":"0f04aa9774ea160b","x":-80,"y":-260,"width":250,"height":50,"color":"#808080","type":"text","text":"Brute force"},
+		{"id":"ef0f5318986f5f56","x":-80,"y":-200,"width":250,"height":50,"color":"#808080","type":"text","text":"Man-in-the-middle"},
+		{"id":"74ebd12a40cade94","x":-80,"y":-140,"width":250,"height":50,"color":"#808080","type":"text","text":"Shoulder surfing"},
+		{"id":"21defa6babf2c1d2","x":-60,"y":135,"width":250,"height":50,"color":"#808080","type":"text","text":"Session hijacking"},
+		{"id":"97691e0f8240a412","x":-60,"y":60,"width":250,"height":50,"color":"#808080","type":"text","text":"Pass-the-hash attack"}
+	],
+	"edges":[
+		{"id":"770c71cd09bb3ee4","fromNode":"c7e648061daacefe","fromSide":"bottom","toNode":"2782843a06df5e84","toSide":"left"},
+		{"id":"fbc034ffdecd6603","fromNode":"c7e648061daacefe","fromSide":"bottom","toNode":"b8d9069f91adac1e","toSide":"left"},
+		{"id":"95d124f4d411fbe6","fromNode":"0f04aa9774ea160b","fromSide":"left","toNode":"2782843a06df5e84","toSide":"right"},
+		{"id":"a982911f06339ae9","fromNode":"74ebd12a40cade94","fromSide":"left","toNode":"2782843a06df5e84","toSide":"right"},
+		{"id":"7f2e16bf2d4efbe1","fromNode":"ef0f5318986f5f56","fromSide":"left","toNode":"2782843a06df5e84","toSide":"right"},
+		{"id":"db44707753ee6433","fromNode":"0ad8b8554a26c264","fromSide":"left","toNode":"2782843a06df5e84","toSide":"right"},
+		{"id":"fe636ee11655b46c","fromNode":"97691e0f8240a412","fromSide":"left","toNode":"b8d9069f91adac1e","toSide":"right"},
+		{"id":"acf53a466f2d8f98","fromNode":"21defa6babf2c1d2","fromSide":"left","toNode":"b8d9069f91adac1e","toSide":"right"}
+	]
+}

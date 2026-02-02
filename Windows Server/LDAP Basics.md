@@ -1,0 +1,3 @@
+- [Microsoft LDAP documentation](https://learn.microsoft.com/en-us/previous-versions/windows/desktop/ldap/lightweight-directory-access-protocol-ldap-api)
+- [LDAP Wikipedia article](https://en.wikipedia.org/wiki/Lightweight_Directory_Access_Protocol)
+- [LDAP website learning articles](https://ldap.com/learn-about-ldap/)

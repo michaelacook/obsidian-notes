@@ -13,7 +13,7 @@
 | 10  | `ncpa.cpl`               | Open the Network adapter connections.                     |
 | 11  | `control netconnections` | Open the Network adapter connections.                     |
 | 12  | `netsetup.cpl`           | Open network setup wizard.                                |
-| 13  | `ping 192.168.10.100`    | Check the network connectivity of any IP address.         |
+| 13  | `ping [address]`         | Check the network connectivity of any IP address.         |
 | 14  | `tracert`                | Trace the IP Route.                                       |
 | 15  | `netstat`                | Displays the TCP/IP protocol sessions.                    |
 | 16  | `route`                  | Display Local Route.                                      |

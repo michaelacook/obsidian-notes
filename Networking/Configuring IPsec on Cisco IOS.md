@@ -2,7 +2,7 @@
 
 This guide provides simple instructions to configure IPsec for a GRE tunnel between two routers. Replace `router 1 WAN address` and `router 2 WAN address` with the actual WAN IP addresses of the routers.
 
-```bash
+```
 ! Step 1: Configure the GRE Tunnel
 interface Tunnel0
  ip address 10.0.0.1 255.255.255.252         ! On Router 1
