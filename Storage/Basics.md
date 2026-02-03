@@ -1,4 +1,3 @@
-
 ## The Big Picture: What “Storage” Really Is
 
 At its core, storage answers **three questions**:
