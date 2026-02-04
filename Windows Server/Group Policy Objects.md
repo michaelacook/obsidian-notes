@@ -1,0 +1,60 @@
+Group Policy Objects
+- Apply to users or computers
+- Stored in the domain partition
+  - `C:\Windows\SYSVOL\domain\Policies`
+- Refreshed/pushed out every 90-120 mins
+  - every 5 minutes for domain controllers
+  - user policies will be refreshed at logon
+- Run `gpupdate` from the OU in Group Policy Management console, but only refreshes computer settings
+- `gpupdate /force` on a client device
+- can be applied to four different levels, down the hierarchy:
+  - local computer
+    - Local Group Policy
+    - every other level take precedence and overrides conflicts
+    - not really used often
+    - not an Active Directory level
+  - site
+    - apply policies to a whole site
+  - domain
+    - apply policies to entire domain
+  - organizational unit
+    - apply just to a single OU
+      - filters down to all child OUs
+- GPOs applied to the site will filter down to everything in that site
+- GPOs applied to an OU will filter down to all child OUs
+- GPOs applied to the domain will filter down to everything in that domain
+- How are conflicts resolved? The last policy in the hierarchy applies
+  - stated another way, the policy closest to the user/computer applies
+- Can block GPO inheritance, will blow all passwords from above except password policies
+- Can enforce a GPO, which will force down a GPO even where inheritance is blocked
+- Local GPO will always be overridden if a conflict with AD GPO
+- Can only have one GPO with a password policy applied at a time
+- Can't apply password policies at the site or OU level
+- Fine-grained password policy done differently
+- Computer configuration vs User configuration
+  - Policies - forced, grey stuff out so it can't be changed
+    - Software Settings: deploy software
+    - Windows Settings: preconfigured Windows, security settings
+    - Administrative Templates: policies that can be added to or customized, admx files
+  - Preferences - starting configurations that are allowed to be changed
+    - Preferences allows for item-level targeting
+- GPOs get applied to a site, domain or ou, but can also be filtered by group membership under Security Filtering, or WMI Filtering (Windows Management Instrumentation)
+  - WMI Filter:
+    - WMI Query Language: based on certain resources on someone's machine
+      - i.e., apply a GPO based on how much RAM is on a computer
+- `gpresult /h C:\location.html`
+
+## Sending files to clients via GPO
+- Open Group Policy Management
+- Edit (or create) a GPO that’s linked to the OU containing the target computers or users.
+- Go to Preferences → Files
+- Computer Configuration → Preferences → Windows Settings → Files (use this if the file should go to all machines)
+- Or User Configuration → Preferences → Windows Settings → Files (if it’s per-user)
+- Create a new File item
+- Action: Create or Update
+- Source file:
+`\\domain\SYSVOL\domain\Policies\{GPO-GUID}\Machine\… (or any shared path — SYSVOL is common)`
+- Destination path:
+- e.g. C:\Program Files\YourApp\file.txt
+- Save the GPO
+- Clients will copy the file at next GP refresh (gpupdate /force or reboot).
