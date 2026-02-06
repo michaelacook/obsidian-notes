@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Active Directory Backups and Availability.md",
+                "file": "Windows/Windows Network Troubleshooting.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Active Directory Backups and Availability"
+              "title": "Windows Network Troubleshooting"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "6e2e752ca60cf354",
   "lastOpenFiles": [
-    "Windows Server/Multi-domains and Sites.md",
     "Windows Server/Active Directory Backups and Availability.md",
+    "Windows Server/Multi-domains and Sites.md",
     "Windows Server/File Servers.md",
     "Windows Server/Distributed File System (DFS).md",
     "Windows Server/Group Policy Objects.md",
