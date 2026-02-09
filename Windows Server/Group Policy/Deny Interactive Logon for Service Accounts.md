@@ -1,0 +1,4 @@
+- Create a security group for all service accounts, add service accounts to it
+- New GPO linked to the domain "Deny Interactive Logon - Service Accounts"
+- **Computer Configuration>Windows Settings>Security Settings>User Rights Assignment>**Deny log on locally, Deny log on through Remote Desktop Services
+- Enable, specify security group for service accounts

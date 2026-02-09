@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Troubleshooting/Fixing Unavailable RPC Server.md",
-                "mode": "source",
+                "file": "Windows Server/Users, Groups and Organizational Units.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fixing Unavailable RPC Server"
+              "title": "Users, Groups and Organizational Units"
             }
           }
         ]
@@ -198,9 +198,12 @@
   },
   "active": "f929a4ea754e76cf",
   "lastOpenFiles": [
+    "Windows Server/Multi-domains and Sites.md",
+    "Windows Server/Group Policy/Deny Interactive Logon for Service Accounts.md",
+    "Storage/Syncback Pro - Scheduled backups using a service account.md",
+    "Storage/Basics.md",
     "Windows Server/Troubleshooting/Fixing Unavailable RPC Server.md",
     "Windows Server/Active Directory Backups and Availability.md",
-    "Windows Server/Multi-domains and Sites.md",
     "Windows Server/File Servers.md",
     "Windows Server/Distributed File System (DFS).md",
     "Windows Server/Group Policy Objects.md",
@@ -210,7 +213,6 @@
     "Windows Server/Troubleshooting/SYSVOL Replication.md",
     "Windows Server/Group Policy/Deploying BGInfo.md",
     "Windows Server/Troubleshooting",
-    "Storage/Basics.md",
     "Windows/Windows Registry Basics.md",
     "Windows/History of Windows.md",
     "Home Lab/posts/post-4/Untitled 1.png",
@@ -238,9 +240,7 @@
     "Windows/Windows Update and System Integrity.md",
     "Windows/Repairing Windows with DISM.md",
     "Windows Server/Users, Groups and Organizational Units.md",
-    "Windows/Managing Apps and Compatibility.md",
     "Windows Server/Group Policy",
-    "Windows/Fixing Slow Windows Performance.md",
     "Storage",
     "www.microsoft.com/software-download",
     "www.microsoft.com",
