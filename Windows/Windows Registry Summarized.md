@@ -38,6 +38,7 @@
 ### Meaning of “HKEY”
 
 - **HKEY** = **Handle to Registry Key**
+	- Also seen it referred to as "Hive Key", not sure which is actually correct
 - Common abbreviations:
     - **HKCR** = HKEY_CLASSES_ROOT
     - **HKLM** = HKEY_LOCAL_MACHINE

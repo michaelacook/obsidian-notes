@@ -114,4 +114,4 @@ example1.txt example2.txt example3.txt
 * E.g `$ find . -name "test"` this will search the working directory and it's subdirectories for a file with the name "test"
 * E.g `$ find ~/ -name "anything*"` this will search the home directory and it's subdirectories for a file with the name "anything" that has any file extension
 
-[Previous](intro.md) | [Next](sudo_user_roles.md) 
+[Previous](Linux/basics/intro.md) | [Next](sudo_user_roles.md) 

@@ -1,7 +1,7 @@
 - Registry is the nervous system of Windows
 
 ## Registry Editor
-- Windows Tools or Run>rededit.exe
+- Windows Tools or Run>reg[]()edit.exe
 - Always create a backup copy of the registry with File>Export
 - Restore a backup with File>Import to import a .reg file
 - Windows Recovery Console

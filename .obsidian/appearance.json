@@ -1,5 +1,6 @@
 {
-  "cssTheme": "Dark Moss",
+  "cssTheme": "Willemstad",
   "theme": "obsidian",
-  "showRibbon": false
+  "showRibbon": false,
+  "accentColor": "#bff55c"
 }
