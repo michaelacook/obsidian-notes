@@ -1,0 +1,8 @@
+- A dynamic virtual disk will expand as data are added but it will not contract if data are removed
+- This can lead in some cases to a virtual disk wasting a lot of space on the hypervisor host
+- Compacting the disk will free up space on the hypervisor host without changing the logical size of the disk itself
+- Compacting a disk with checkpoints works on the active VHDX file
+- Steps:
+	- Turn off virtual machine
+	- Open VM settings and edit the disk
+	- Select Compact option

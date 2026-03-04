@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9c0a18a68179a963",
+        "id": "c48bebc537fc8e96",
         "type": "tabs",
         "children": [
           {
-            "id": "f929a4ea754e76cf",
+            "id": "e6caf942ce0472fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 325.5
+    "width": 396.5
   },
   "right": {
     "id": "50a7aa63f5d96d68",
@@ -196,10 +196,21 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "f929a4ea754e76cf",
+  "active": "e6caf942ce0472fc",
   "lastOpenFiles": [
-    "Windows Server/Hyper-V/Intro.md",
+    "Windows Server/Hyper-V/Hyper-V Powershell Reference.md",
+    "Windows Server/Hyper-V/Compact a Virtual Disk.md",
+    "Windows/Traceroute.md",
+    "Windows/Ping.md",
+    "Windows/Net Shell.md",
+    "Windows/Basic Troubleshooting/1. Introduction.md",
+    "Windows Server/Hyper-V/Create and Configure VMs with PowerShell.md",
     "Windows Server/Hyper-V/Install Hyper-V with Powershell.md",
+    "1. Virtual Machine Management.md",
+    "Windows Server/Hyper-V/Dynamic Memory.md",
+    "Windows Server/Hyper-V/Create a NAT Virtual Switch.md",
+    "Windows Server/Hyper-V/Create a Differencing Disk.md",
+    "Windows Server/Hyper-V/Intro.md",
     "Windows Server/Active Directory Domain Services.md",
     "Windows Server/Hyper-V",
     "Windows Server/Group Policy/Add Users to Local Remote Desktop Users with Group Policy.md",
@@ -214,13 +225,7 @@
     "Windows Server/Active Directory Backups and Availability.md",
     "Windows Server/File Servers.md",
     "Windows Server/Distributed File System (DFS).md",
-    "Windows Server/Group Policy Objects.md",
-    "Windows/Windows Network Troubleshooting.md",
-    "Windows/Networking Commands.md",
-    "Windows Server/Troubleshooting/SYSVOL Replication.md",
-    "Windows Server/Group Policy/Deploying BGInfo.md",
     "Windows Server/Troubleshooting",
-    "Windows/History of Windows.md",
     "Home Lab/posts/post-4/Untitled 1.png",
     "Home Lab/posts/post-4/Pasted image 20251211222102.png",
     "Home Lab/posts/post-4/Untitled.png",
@@ -228,19 +233,14 @@
     "Home Lab/posts/post-4/Pasted image 20251211220642.png",
     "Home Lab/posts/post-4/Pasted image 20251211220236.png",
     "Home Lab/posts/post-4/Pasted image 20251211220148.png",
-    "Home Lab/posts/post-4/OpenVPN Split Tunneling.md",
     "Home Lab/posts/post-3/topology 1.png",
     "Home Lab/posts/post-3/web reachability from vlan 100.png",
     "Home Lab/posts/post-3/topology.png",
-    "Home Lab/posts/post-3/OpenVPN with RADIUS Authentication.md",
-    "Home Lab/posts/post-2/NAT Overload.md",
-    "Home Lab/posts/post-1/Hello, World!.md",
     "Home Lab/posts/post-4",
     "Home Lab/posts/post-3",
     "Home Lab/posts/post-2",
     "Home Lab/posts/post-1",
     "Home Lab/posts",
-    "Windows/Obtaining System Information.md",
     "Windows Server/Group Policy",
     "Storage",
     "www.microsoft.com/software-download",
