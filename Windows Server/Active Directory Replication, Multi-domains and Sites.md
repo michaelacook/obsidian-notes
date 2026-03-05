@@ -1,4 +1,4 @@
-Active Directory Domain Trusts
+## Active Directory Domain Trusts
 - Trust relationship: connection between domains that allows sharing of resources
 - automatic trust relationship between domains called two-way transitive trust
   - Transitive: if domain A has a trust with B and B has a trust with C, A trusts C

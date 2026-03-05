@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Hyper-V/Optimizing VHDs with PowerShell.md",
-                "mode": "source",
+                "file": "Windows Server/Hyper-V/Live Migration - Authentication & Delegation.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Optimizing VHDs with PowerShell"
+              "title": "Live Migration - Authentication & Delegation"
             }
           }
         ]
@@ -198,8 +198,12 @@
   },
   "active": "e6caf942ce0472fc",
   "lastOpenFiles": [
-    "Windows Server/Hyper-V/Compact a Virtual Disk.md",
+    "Windows Server/Hyper-V/Storage Migration.md",
+    "Windows Server/Hyper-V/Live Migration - Authentication & Delegation.md",
+    "Windows Server/Hyper-V/VHD Sets.md",
+    "1. Virtual Machine Management.md",
     "Windows Server/Hyper-V/Optimizing VHDs with PowerShell.md",
+    "Windows Server/Hyper-V/Compact a Virtual Disk.md",
     "Windows Server/Hyper-V/Create and Configure VMs with PowerShell.md",
     "Windows Server/Hyper-V/Install Hyper-V with Powershell.md",
     "Windows Server/Hyper-V/Hyper-V Powershell Reference.md",
@@ -207,7 +211,6 @@
     "Windows/Ping.md",
     "Windows/Net Shell.md",
     "Windows/Basic Troubleshooting/1. Introduction.md",
-    "1. Virtual Machine Management.md",
     "Windows Server/Hyper-V/Dynamic Memory.md",
     "Windows Server/Hyper-V/Create a NAT Virtual Switch.md",
     "Windows Server/Hyper-V/Create a Differencing Disk.md",
@@ -222,9 +225,6 @@
     "Windows Server/Group Policy/Deny Interactive Logon for Service Accounts.md",
     "Storage/Syncback Pro - Scheduled backups using a service account.md",
     "Storage/Basics.md",
-    "Windows Server/Troubleshooting/Fixing Unavailable RPC Server.md",
-    "Windows Server/Active Directory Backups and Availability.md",
-    "Windows Server/File Servers.md",
     "Windows Server/Troubleshooting",
     "Home Lab/posts/post-4/Untitled 1.png",
     "Home Lab/posts/post-4/Pasted image 20251211222102.png",

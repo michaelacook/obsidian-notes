@@ -53,7 +53,7 @@ Important to read:
   - Standard Primary
   - Secondary
   - Stub (ADI/Standard)
-- Best to make all DNS servesr ADI Primary, but you can only do this if the DNS server is also a domain controller
+- Best to make all DNS servers ADI Primary, but you can only do this if the DNS server is also a domain controller
 - If you use a Standard Primary DNS server, you can only have one primary DNS server in your whole domain, everything else must be secondary or a stub, which means that only a single domain controller is writable (the primary)
   - all changes have to go up to the primary, and then written back through replicable to the secondary/stub server
 - If you're using DNS servers running on UNIX, you would use Standard Primary and secondary/stub servers, but most companies don't do this
@@ -70,3 +70,51 @@ Important to read:
 - Install DNS role on the server
 - Create a new forward lookup zone, create a primary zone, store the zone in AD
 - Follow prompts, make sure server uses itself for DNS, reboot or restart netlogon service
+
+------
+# Active Directory DNS Zones
+
+## Forward Lookup Zones
+- **yourdomain.com**  
+  Standard DNS zone for hosts and services; contains some AD SRV records.
+- **_msdcs.yourdomain.com**  
+  AD-only zone for DC discovery, replication, GC, FSMO; separated for replication efficiency.
+
+## Key Containers
+
+### _msdcs.yourdomain.com
+- **_dc** – domain controller locator
+- **_gc** – Global Catalog discovery
+- **_ldap** – LDAP services
+- **_kerberos** – Kerberos authentication
+- **_sites** – site-aware DC selection
+- **DomainDnsZones** – domain-scoped DNS partition
+- **ForestDnsZones** – forest-wide DNS partition
+
+### yourdomain.com
+- **_tcp / _udp** – service transport SRV records
+- **_sites** – site-specific services
+- **_ldap** – LDAP services
+- **_kerberos** – authentication services
+
+## Critical Records
+- **SRV** – map AD services to DCs (logon, GPO, auth, replication)  
+  Example: `_ldap._tcp.dc._msdcs.yourdomain.com`
+- **GUID records** – one per DC; used for replication and identity; survive renames
+
+## AD-Integrated DNS Partitions
+- **DomainDnsZones** – replicates to DCs in the domain
+- **ForestDnsZones** – replicates to all DCs in the forest
+
+## Do Not Touch
+- _msdcs zone
+- SRV records
+- GUID records
+- _tcp / _udp / _sites containers
+
+## Mental Model
+- **yourdomain.com** = human/app DNS
+- **_msdcs.yourdomain.com** = AD discovery
+- **SRV** = service locator
+- **GUIDs** = DC identity
+- **Sites** = closest DC
