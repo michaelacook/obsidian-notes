@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Hyper-V/Install Hyper-V with Powershell.md",
+                "file": "Windows Server/Hyper-V/Optimizing VHDs with PowerShell.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Install Hyper-V with Powershell"
+              "title": "Optimizing VHDs with PowerShell"
             }
           }
         ]
@@ -198,14 +198,15 @@
   },
   "active": "e6caf942ce0472fc",
   "lastOpenFiles": [
-    "Windows Server/Hyper-V/Hyper-V Powershell Reference.md",
     "Windows Server/Hyper-V/Compact a Virtual Disk.md",
+    "Windows Server/Hyper-V/Optimizing VHDs with PowerShell.md",
+    "Windows Server/Hyper-V/Create and Configure VMs with PowerShell.md",
+    "Windows Server/Hyper-V/Install Hyper-V with Powershell.md",
+    "Windows Server/Hyper-V/Hyper-V Powershell Reference.md",
     "Windows/Traceroute.md",
     "Windows/Ping.md",
     "Windows/Net Shell.md",
     "Windows/Basic Troubleshooting/1. Introduction.md",
-    "Windows Server/Hyper-V/Create and Configure VMs with PowerShell.md",
-    "Windows Server/Hyper-V/Install Hyper-V with Powershell.md",
     "1. Virtual Machine Management.md",
     "Windows Server/Hyper-V/Dynamic Memory.md",
     "Windows Server/Hyper-V/Create a NAT Virtual Switch.md",
@@ -224,7 +225,6 @@
     "Windows Server/Troubleshooting/Fixing Unavailable RPC Server.md",
     "Windows Server/Active Directory Backups and Availability.md",
     "Windows Server/File Servers.md",
-    "Windows Server/Distributed File System (DFS).md",
     "Windows Server/Troubleshooting",
     "Home Lab/posts/post-4/Untitled 1.png",
     "Home Lab/posts/post-4/Pasted image 20251211222102.png",
