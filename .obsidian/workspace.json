@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Hyper-V/Live Migration - Authentication & Delegation.md",
+                "file": "Windows Server/Hyper-V/VHD Sets.md",
                 "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Live Migration - Authentication & Delegation"
+              "title": "VHD Sets"
             }
           }
         ]
@@ -198,7 +198,10 @@
   },
   "active": "e6caf942ce0472fc",
   "lastOpenFiles": [
+    "Windows Server/Hyper-V/Clustered Shared Volumes.md",
+    "Windows Server/Hyper-V/iSCSI Targets & Hyper-V Initiator.md",
     "Windows Server/Hyper-V/Storage Migration.md",
+    "Windows Server/Hyper-V/Intro.md",
     "Windows Server/Hyper-V/Live Migration - Authentication & Delegation.md",
     "Windows Server/Hyper-V/VHD Sets.md",
     "1. Virtual Machine Management.md",
@@ -214,7 +217,6 @@
     "Windows Server/Hyper-V/Dynamic Memory.md",
     "Windows Server/Hyper-V/Create a NAT Virtual Switch.md",
     "Windows Server/Hyper-V/Create a Differencing Disk.md",
-    "Windows Server/Hyper-V/Intro.md",
     "Windows Server/Active Directory Domain Services.md",
     "Windows Server/Hyper-V",
     "Windows Server/Group Policy/Add Users to Local Remote Desktop Users with Group Policy.md",
@@ -223,8 +225,6 @@
     "Windows Server/Users, Groups and Organizational Units.md",
     "Windows Server/Multi-domains and Sites.md",
     "Windows Server/Group Policy/Deny Interactive Logon for Service Accounts.md",
-    "Storage/Syncback Pro - Scheduled backups using a service account.md",
-    "Storage/Basics.md",
     "Windows Server/Troubleshooting",
     "Home Lab/posts/post-4/Untitled 1.png",
     "Home Lab/posts/post-4/Pasted image 20251211222102.png",
