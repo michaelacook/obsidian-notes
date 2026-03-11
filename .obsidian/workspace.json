@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Windows Server/Hyper-V/Checkpoints.md",
+                "file": "Windows Server/Hyper-V/Hyper-V Replicas.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Checkpoints"
+              "title": "Hyper-V Replicas"
             }
           }
         ]
@@ -95,7 +95,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 396.5
+    "width": 422.5
   },
   "right": {
     "id": "50a7aa63f5d96d68",
@@ -196,10 +196,16 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "daa86fb792f25c21",
+  "active": "e6caf942ce0472fc",
   "lastOpenFiles": [
-    "Windows Server/iSCSI with Multi-path IO (MPIO).md",
+    "Pasted image 20260310225829.png",
+    "Pasted image 20260310224159.png",
+    "Pasted image 20260310223917.png",
+    "Pasted image 20260310223829.png",
+    "Pasted image 20260310223637.png",
     "Windows Server/Hyper-V/Checkpoints.md",
+    "Windows Server/Hyper-V/Hyper-V Replicas.md",
+    "Windows Server/iSCSI with Multi-path IO (MPIO).md",
     "Windows Server/Restrict iSCSI target to specific portal IP addresses.md",
     "pasted images/Pasted image 20260308151559.png",
     "pasted images/Pasted image 20260308150744.png",
@@ -207,7 +213,6 @@
     "pasted images/Pasted image 20260308150019.png",
     "pasted images/Pasted image 20260308142846.png",
     "pasted images/Pasted image 20260308142745.png",
-    "pasted images/Pasted image 20260308135052.png",
     "Windows Server/Hyper-V/iSCSI Targets & Hyper-V Initiator.md",
     "Windows Server/DNS.md",
     "Windows Server/Distributed File System (DFS).md",
@@ -229,13 +234,8 @@
     "Windows Server/Hyper-V/Dynamic Memory.md",
     "Windows Server/Hyper-V/Create a NAT Virtual Switch.md",
     "Windows Server/Hyper-V/Create a Differencing Disk.md",
-    "Windows Server/Active Directory Domain Services.md",
     "Windows Server/Hyper-V",
-    "Windows Server/Group Policy/Add Users to Local Remote Desktop Users with Group Policy.md",
     "Windows Server/Troubleshooting",
-    "Home Lab/posts/post-4/Untitled 1.png",
-    "Home Lab/posts/post-4/Pasted image 20251211222102.png",
-    "Home Lab/posts/post-4/Untitled.png",
     "Home Lab/posts/post-4",
     "Home Lab/posts/post-3",
     "Home Lab/posts/post-2",
