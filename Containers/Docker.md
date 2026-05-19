@@ -23,7 +23,7 @@
 - quick sharing of software 
 - popular, often required for jobs
 - DevOps Infrastructure as Code philosophy 
-- version controll for dependencies, roll back to an old version if something breaks 
+- version control for dependencies, roll back to an old version if something breaks 
 - consistency between development, testing and production environments, so no surprises when you go from development to testing or production
 - deploy apps to 1000s of machines
 
@@ -93,6 +93,7 @@ $ docker run -p 8080:80 --detach nginx
   - to view information about a network run `docker network inspect [name]` including the containers connected to it
 - stop a container by using the `docker stop [id]` command 
   - to get the id of a Docker container's process run `docker ps` to see all Docker processes. Find the container and copy it's CONTAINER ID field 
+- Remove an unneeded image with `docker rmi -f containername`
 
 #### Connecting two containers over a network 
 
@@ -101,8 +102,8 @@ $ docker run -p 8080:80 --detach nginx
 $ docker pull ubuntu
 
 # run the Ubuntu container and create two virtual terminal sessions
-$ docker run -it ubuntu --detach --name=ubuntu1
-$ docker run -it ubuntu --detach --name=ubuntu2
+$ docker run -it --detach --name=ubuntu1 ubuntu
+$ docker run -it --detach --name=ubuntu2 ubuntu
 
 # this command attaches the current Bash session to the container specified
 # which we already gave an interactive shell
